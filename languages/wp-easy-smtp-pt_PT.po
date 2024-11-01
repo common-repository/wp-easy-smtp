@@ -1,0 +1,370 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Easy SMTP\n"
+"POT-Creation-Date: 2017-11-21 16:05+0330\n"
+"PO-Revision-Date: 2017-11-21 16:07+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wp-easy-smtp.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/cron.class.php:160 includes/cron.class.php:177 wp-easy-smtp.php:687
+msgid "Bad Request"
+msgstr "Bad Request"
+
+#: wp-easy-smtp.php:124
+msgid "WP Easy SMTP"
+msgstr "WP Easy SMTP"
+
+#: wp-easy-smtp.php:138 wp-easy-smtp.php:153
+msgid "Settings"
+msgstr "Configurações"
+
+#: wp-easy-smtp.php:165
+msgid "WP Easy SMTP Settings"
+msgstr "WP Easy SMTP Configurações"
+
+#: wp-easy-smtp.php:186
+#, php-format
+msgid ""
+"Please visit the <a target=\"_blank\" href=\"%s\">WP Easy SMTP</a> plugin's "
+"documentation page for usage instructions."
+msgstr ""
+"Por favor, visite a página de documentação do plugin <a target=\"_blank\" "
+"href=\"%s\">WP Easy SMTP</a> para instruções de uso."
+
+#: wp-easy-smtp.php:190
+msgid "Notice:"
+msgstr "Aviso:"
+
+#: wp-easy-smtp.php:190
+msgid ""
+"The plugin's settings have been changed. In order to save them please don't "
+"forget to click the 'Save Changes' button."
+msgstr ""
+"Configurações do plugin foram alteradas. A fim de salvá-los não se esqueça "
+"de clicar no botão 'Salvar alterações'."
+
+#: wp-easy-smtp.php:194
+msgid "SMTP Configuration Settings"
+msgstr "Definições de configuração do SMTP"
+
+#: wp-easy-smtp.php:197
+msgid ""
+"You can request your hosting provider for the SMTP details of your site. Use "
+"the SMTP details provided by your hosting provider to configure the "
+"following settings."
+msgstr ""
+"Você pode solicitar a seu provedor de hospedagem para os detalhes de SMTP do "
+"seu site. Use os detalhes de SMTP fornecidos pelo seu provedor de hospedagem "
+"para definir as seguintes configurações."
+
+#: wp-easy-smtp.php:203 wp-easy-smtp.php:555
+msgid "From Email"
+msgstr "De E-mail"
+
+#: wp-easy-smtp.php:206
+msgid ""
+"You can specify the email address that emails should be sent from. If you "
+"leave this blank, the default email will be used."
+msgstr ""
+"Você pode especificar o endereço de e-mail que e-mails devem ser enviadas a "
+"partir. Se você deixar em branco, o e-mail padrão será usado."
+
+#: wp-easy-smtp.php:209
+msgid "From Name"
+msgstr "De nome"
+
+#: wp-easy-smtp.php:212
+msgid ""
+"You can specify the name that emails should be sent from. If you leave this "
+"blank, the emails will be sent from WordPress."
+msgstr ""
+"Você pode especificar o nome que os e-mails devem ser enviadas a partir. Se "
+"você deixar em branco, os email serão enviados do WordPress."
+
+#: wp-easy-smtp.php:216 wp-easy-smtp.php:565
+msgid "Reply-To Email Address"
+msgstr "Responder-para endereço de e-mail"
+
+#: wp-easy-smtp.php:219
+msgid ""
+"This email address will be used in the 'Reply-To' field of the email. Leave "
+"it blank to use 'From Email' as the reply-to value."
+msgstr ""
+"Este endereço de e-mail será usado no campo 'Reply-To' do e-mail. Deixá-lo "
+"em branco para usar 'De E-mail' como o valor de resposta."
+
+#: wp-easy-smtp.php:223
+msgid "Mailer"
+msgstr "Mailer"
+
+#: wp-easy-smtp.php:227
+msgid "SMTP"
+msgstr "SMTP"
+
+#: wp-easy-smtp.php:229
+msgid "Gmail"
+msgstr "Gmail"
+
+#: wp-easy-smtp.php:231
+msgid "Yahoo"
+msgstr "Yahoo"
+
+#: wp-easy-smtp.php:233
+msgid "Hotmail"
+msgstr "Hotmail"
+
+#: wp-easy-smtp.php:235
+msgid "SendGrid"
+msgstr "SendGrid"
+
+#: wp-easy-smtp.php:237
+msgid "SparkPost"
+msgstr "SparkPost"
+
+#: wp-easy-smtp.php:239
+msgid "Postmark"
+msgstr "Postmark"
+
+#: wp-easy-smtp.php:241
+msgid "Mandrill"
+msgstr "Mandrill"
+
+#: wp-easy-smtp.php:243
+msgid "Pepipost"
+msgstr "Pepipost"
+
+#: wp-easy-smtp.php:245
+msgid "Your mail delivery service"
+msgstr "Seu serviço de entrega de correio"
+
+#: wp-easy-smtp.php:251
+msgid "SMTP Host"
+msgstr "Host SMTP"
+
+#: wp-easy-smtp.php:254
+msgid "Your mail server"
+msgstr "Seu servidor de correio"
+
+#: wp-easy-smtp.php:258
+msgid "SMTP Port"
+msgstr "Porta SMTP"
+
+#: wp-easy-smtp.php:261
+msgid "The port to your mail server"
+msgstr "A porta para seu servidor de correio"
+
+#: wp-easy-smtp.php:265
+msgid "Encryption"
+msgstr "Criptografia"
+
+#: wp-easy-smtp.php:269
+msgid "None"
+msgstr "Nenhum"
+
+#: wp-easy-smtp.php:271
+msgid "SSL"
+msgstr "SSL"
+
+#: wp-easy-smtp.php:273
+msgid "TLS"
+msgstr "TLS"
+
+#: wp-easy-smtp.php:275
+msgid ""
+"TLS is not the same as STARTTLS. For most servers SSL is the recommended "
+"option"
+msgstr ""
+"TLS não é o mesmo que STARTTLS. Para a maioria dos servidores SSL é a opção "
+"recomendada"
+
+#: wp-easy-smtp.php:279
+msgid "Authentication"
+msgstr "Autenticação"
+
+#: wp-easy-smtp.php:283
+msgid "No"
+msgstr "Não"
+
+#: wp-easy-smtp.php:285
+msgid "Yes"
+msgstr "Sim"
+
+#: wp-easy-smtp.php:287
+msgid "This options should always be checked 'Yes'"
+msgstr "Essa opção deve ser sempre verificado 'Sim'"
+
+#: wp-easy-smtp.php:291
+msgid "Username"
+msgstr "Nome de usuário"
+
+#: wp-easy-smtp.php:294
+msgid "The username to login to your mail server"
+msgstr "O nome de usuário de logon para o servidor de email"
+
+#: wp-easy-smtp.php:296
+msgid "Password"
+msgstr "Senha"
+
+#: wp-easy-smtp.php:299
+msgid "The password to login to your mail server"
+msgstr "A senha de login para o servidor de email"
+
+#: wp-easy-smtp.php:304
+msgid "Save Changes"
+msgstr "Salvar as alterações"
+
+#: wp-easy-smtp.php:315
+msgid "Testing And Debugging Settings"
+msgstr "Testar e depurar configurações"
+
+#: wp-easy-smtp.php:317
+msgid ""
+"You can use this section to send an email from your server using the above "
+"configured SMTP details to see if the email gets delivered."
+msgstr ""
+"Você pode usar esta seção para enviar um e-mail de seu servidor usando os "
+"detalhes de SMTP configurados acima para ver se o e-mail seja entregue."
+
+#: wp-easy-smtp.php:323
+msgid "To"
+msgstr "Para"
+
+#: wp-easy-smtp.php:327
+msgid "Users"
+msgstr "Usuários"
+
+#: wp-easy-smtp.php:329
+msgid "Commenters"
+msgstr "Comentadores"
+
+#: wp-easy-smtp.php:331
+msgid "Custom"
+msgstr "Personalizado"
+
+#: wp-easy-smtp.php:335
+msgid "Enter the recipient's email address"
+msgstr "Digite o endereço de e-mail do destinatário"
+
+#: wp-easy-smtp.php:340
+msgid "Subject"
+msgstr "Assunto"
+
+#: wp-easy-smtp.php:343
+msgid "Enter a subject for your message"
+msgstr "Digite um assunto para sua mensagem"
+
+#: wp-easy-smtp.php:343 wp-easy-smtp.php:350
+msgid "Variable values are:"
+msgstr "Valores de variáveis são:"
+
+#: wp-easy-smtp.php:347
+msgid "Message"
+msgstr "Mensagem"
+
+#: wp-easy-smtp.php:350
+msgid "Write your email message"
+msgstr "Escreva sua mensagem"
+
+#: wp-easy-smtp.php:355
+msgid "Send Test Email"
+msgstr "Enviar Email de teste"
+
+#: wp-easy-smtp.php:388
+#, php-format
+msgid ""
+"Please configure your SMTP credentials in the <a href=\"%s\">settings menu</"
+"a> in order to send email using WP Easy SMTP plugin."
+msgstr ""
+"Por favor, configure suas credenciais de SMTP no <a href=\"%s\">menu de "
+"configurações</a> para enviar e-mail utilizando o plugin WP Easy SMTP."
+
+#: wp-easy-smtp.php:540
+msgid "You are not allowed to change SMTP configuration settings."
+msgstr "Não podes mudar as definições de configuração do SMTP."
+
+#: wp-easy-smtp.php:555 wp-easy-smtp.php:565
+#, php-format
+msgid "Please enter a valid email address in the '%s' field."
+msgstr "Introduza um endereço de e-mail válido no campo '%s'."
+
+#: wp-easy-smtp.php:577
+msgid "Please enter a valid host in the 'SMTP Host' field."
+msgstr "Por favor insira um host válido no campo 'Host SMTP'."
+
+#: wp-easy-smtp.php:588
+msgid "Please enter a valid username in the 'Username' field."
+msgstr "Por favor digite um nome de usuário válido no campo 'Nome de usuário'."
+
+#: wp-easy-smtp.php:590
+msgid "Please enter a valid password in the 'Password' field."
+msgstr "Por favor digite uma senha válida no campo 'Senha'."
+
+#: wp-easy-smtp.php:602
+msgid "Please enter a valid port in the 'SMTP Port' field."
+msgstr "Por favor digite uma porta válido no campo 'Porta SMTP'."
+
+#: wp-easy-smtp.php:611
+msgid "Settings saved."
+msgstr "Configurações salvas."
+
+#: wp-easy-smtp.php:613
+msgid "Settings are not saved."
+msgstr "As configurações não são salvas."
+
+#: wp-easy-smtp.php:640
+msgid "Please enter a valid email address in the recipient email field."
+msgstr ""
+"Introduza um endereço de e-mail válido no campo e-mail do destinatário."
+
+#: wp-easy-smtp.php:668
+msgid "Test mail was sent"
+msgstr "Email de teste foi enviada"
+
+#: wp-easy-smtp.php:675
+msgid "Test mail was not sent"
+msgstr "E-mail de teste não foi enviado"
+
+#. Plugin Name of the plugin/theme
+msgid "WordPress Easy SMTP"
+msgstr "WordPress Easy SMTP"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://iprodev.com/wordpress-easy-smtp-send-emails-from-your-wordpress-site-"
+"using-a-smtp-server"
+msgstr ""
+"https://iprodev.com/wordpress-easy-smtp-send-emails-from-your-wordpress-site-"
+"using-a-smtp-server"
+
+#. Description of the plugin/theme
+msgid ""
+"Reconfigures the wp_mail() function to use SMTP instead of mail() and "
+"creates an options page to manage the settings."
+msgstr ""
+"Reconfigura a função wp_mail() para usar o SMTP em vez de mail () e cria uma "
+"página de opções para gerenciar as configurações."
+
+#. Author of the plugin/theme
+msgid "iProDev"
+msgstr "iProDev"
+
+#. Author URI of the plugin/theme
+msgid "https://iprodev.com/"
+msgstr "https://iprodev.com/"
+
+#~ msgid "Please enter a valid email address in the 'From Email' field."
+#~ msgstr "Por favor digite um endereço de e-mail válido no campo 'De E-mail'."

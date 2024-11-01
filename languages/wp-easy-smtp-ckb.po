@@ -1,0 +1,362 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Easy SMTP\n"
+"POT-Creation-Date: 2017-11-21 15:59+0330\n"
+"PO-Revision-Date: 2017-11-21 16:00+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wp-easy-smtp.php\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;"
+"__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/cron.class.php:160 includes/cron.class.php:177 wp-easy-smtp.php:687
+msgid "Bad Request"
+msgstr "Bad Request"
+
+#: wp-easy-smtp.php:124
+msgid "WP Easy SMTP"
+msgstr "WP Easy SMTP"
+
+#: wp-easy-smtp.php:138 wp-easy-smtp.php:153
+msgid "Settings"
+msgstr "ڕێكخستن"
+
+#: wp-easy-smtp.php:165
+msgid "WP Easy SMTP Settings"
+msgstr "‏WP Easy SMTP ڕێكخستنه‌كان"
+
+#: wp-easy-smtp.php:186
+#, php-format
+msgid ""
+"Please visit the <a target=\"_blank\" href=\"%s\">WP Easy SMTP</a> plugin's "
+"documentation page for usage instructions."
+msgstr ""
+"تكایه‌ سه‌ردانی  <a target=\"_blank\" href=\"%s\">WP Easy SMTP</a> لاپه‌ڕه‌ی ڕێنوێنیه‌كان "
+"بكه بۆ چۆنێتی به‌كار هێنان"
+
+#: wp-easy-smtp.php:190
+msgid "Notice:"
+msgstr "سه‌رنج:"
+
+#: wp-easy-smtp.php:190
+msgid ""
+"The plugin's settings have been changed. In order to save them please don't forget to "
+"click the 'Save Changes' button."
+msgstr ""
+"ڕێكخستنه‌كان  گۆڕاون ، بۆ پاشه‌كه‌وت كردنیان بیرت نه‌چێ له‌ سه‌ر ‪“‬پاشه‌كه‌وت كردن‪”‬ كلیك بكه‌ی . "
+
+#: wp-easy-smtp.php:194
+msgid "SMTP Configuration Settings"
+msgstr "ڕێكخستنی  بنه‌ماكان"
+
+#: wp-easy-smtp.php:197
+msgid ""
+"You can request your hosting provider for the SMTP details of your site. Use the SMTP "
+"details provided by your hosting provider to configure the following settings."
+msgstr ""
+"You can request your hosting provider for the SMTP details of your site. Use the SMTP "
+"details provided by your hosting provider to configure the following settings."
+
+#: wp-easy-smtp.php:203 wp-easy-smtp.php:555
+msgid "From Email"
+msgstr "ئیمه‌لی بنێر (له‌ لایه‌ن) : "
+
+#: wp-easy-smtp.php:206
+msgid ""
+"You can specify the email address that emails should be sent from. If you leave this "
+"blank, the default email will be used."
+msgstr ""
+"ده‌توانی ئیمێلێك وه‌ك ئیمێلی بنێر دیاری كه‌ی ، ئه‌گه‌ر به‌تاڵ جێی بهێڵی ، ئیمه‌لی بنه‌ما به‌ "
+"كار ده‌هێندرێ."
+
+#: wp-easy-smtp.php:209
+msgid "From Name"
+msgstr "ناوی بنێر (له‌ لایه‌ن):"
+
+#: wp-easy-smtp.php:212
+msgid ""
+"You can specify the name that emails should be sent from. If you leave this blank, the "
+"emails will be sent from WordPress."
+msgstr ""
+"ده‌توانی ناوێك وه‌ك ناوی بنێر دیاری كه‌ی ، ئه‌گه‌ر به‌تاڵ جێی بهێڵی ، ناوه‌كه‌ له‌ لایه‌ن "
+"وۆردپرێس ده‌رده‌كه‌وێ ."
+
+#: wp-easy-smtp.php:216 wp-easy-smtp.php:565
+msgid "Reply-To Email Address"
+msgstr "Reply-To Email Address"
+
+#: wp-easy-smtp.php:219
+msgid ""
+"This email address will be used in the 'Reply-To' field of the email. Leave it blank "
+"to use 'From Email' as the reply-to value."
+msgstr ""
+"This email address will be used in the 'Reply-To' field of the email. Leave it blank "
+"to use 'From Email' as the reply-to value."
+
+#: wp-easy-smtp.php:223
+msgid "Mailer"
+msgstr "مایله‌ر:"
+
+#: wp-easy-smtp.php:227
+msgid "SMTP"
+msgstr "SMTP"
+
+#: wp-easy-smtp.php:229
+msgid "Gmail"
+msgstr "Gmail"
+
+#: wp-easy-smtp.php:231
+msgid "Yahoo"
+msgstr "Yahoo"
+
+#: wp-easy-smtp.php:233
+msgid "Hotmail"
+msgstr "Hotmail"
+
+#: wp-easy-smtp.php:235
+msgid "SendGrid"
+msgstr "SendGrid"
+
+#: wp-easy-smtp.php:237
+msgid "SparkPost"
+msgstr "SparkPost"
+
+#: wp-easy-smtp.php:239
+msgid "Postmark"
+msgstr "Postmark"
+
+#: wp-easy-smtp.php:241
+msgid "Mandrill"
+msgstr "Mandrill"
+
+#: wp-easy-smtp.php:243
+msgid "Pepipost"
+msgstr "Pepipost"
+
+#: wp-easy-smtp.php:245
+msgid "Your mail delivery service"
+msgstr "ناوه‌ندی خزمته‌گوزاری ئیمێل :"
+
+#: wp-easy-smtp.php:251
+msgid "SMTP Host"
+msgstr "SMTP Host"
+
+#: wp-easy-smtp.php:254
+msgid "Your mail server"
+msgstr "Your mail server"
+
+#: wp-easy-smtp.php:258
+msgid "SMTP Port"
+msgstr "SMTP Port"
+
+#: wp-easy-smtp.php:261
+msgid "The port to your mail server"
+msgstr "The port to your mail server"
+
+#: wp-easy-smtp.php:265
+msgid "Encryption"
+msgstr "Encryption"
+
+#: wp-easy-smtp.php:269
+msgid "None"
+msgstr "None"
+
+#: wp-easy-smtp.php:271
+msgid "SSL"
+msgstr "SSL"
+
+#: wp-easy-smtp.php:273
+msgid "TLS"
+msgstr "TLS"
+
+#: wp-easy-smtp.php:275
+msgid "TLS is not the same as STARTTLS. For most servers SSL is the recommended option"
+msgstr "TLS is not the same as STARTTLS. For most servers SSL is the recommended option"
+
+#: wp-easy-smtp.php:279
+msgid "Authentication"
+msgstr "Authentication"
+
+#: wp-easy-smtp.php:283
+msgid "No"
+msgstr "No"
+
+#: wp-easy-smtp.php:285
+msgid "Yes"
+msgstr "Yes"
+
+#: wp-easy-smtp.php:287
+msgid "This options should always be checked 'Yes'"
+msgstr "ئه‌م به‌شه‌ هه‌موو كاته‌ك ده‌بێ له‌ سه‌ر  'Yes' بێت"
+
+#: wp-easy-smtp.php:291
+msgid "Username"
+msgstr "ناوی به‌كارهێنان"
+
+#: wp-easy-smtp.php:294
+msgid "The username to login to your mail server"
+msgstr "ناوی به‌كارهێنان بۆ چوونه‌ ژووری سێروێری ئیمێله‌كه‌ت ."
+
+#: wp-easy-smtp.php:296
+msgid "Password"
+msgstr "وشه‌ی تێپه‌ڕین "
+
+#: wp-easy-smtp.php:299
+msgid "The password to login to your mail server"
+msgstr "ته‌په‌ڕه‌وشه‌ بۆ چوونه‌ ژووری سێروێری ئیمێله‌كه‌ت ."
+
+#: wp-easy-smtp.php:304
+msgid "Save Changes"
+msgstr "پاشه‌كه‌وت كردن"
+
+#: wp-easy-smtp.php:315
+msgid "Testing And Debugging Settings"
+msgstr "تاقی كردنه‌وه‌ و هه‌ڵه‌چن كردنی ڕێكخستنه‌كان"
+
+#: wp-easy-smtp.php:317
+msgid ""
+"You can use this section to send an email from your server using the above configured "
+"SMTP details to see if the email gets delivered."
+msgstr ""
+"ئه‌م به‌سه‌ ده‌توانی به‌كار بهێنی بۆ تاقی كردنه‌وه‌ی ڕێكخستنه‌كانت بۆ ئه‌وه‌ی ببینی ئایا "
+"ئیمه‌له‌كه‌ ده‌گوازرێته‌وه‌ ."
+
+#: wp-easy-smtp.php:323
+msgid "To"
+msgstr "بۆ"
+
+#: wp-easy-smtp.php:327
+msgid "Users"
+msgstr "به‌كارهێنه‌ران"
+
+#: wp-easy-smtp.php:329
+msgid "Commenters"
+msgstr "سه‌رنجده‌ران"
+
+#: wp-easy-smtp.php:331
+msgid "Custom"
+msgstr "دڵخواز"
+
+#: wp-easy-smtp.php:335
+msgid "Enter the recipient's email address"
+msgstr "ئیمێلی وه‌رگر"
+
+#: wp-easy-smtp.php:340
+msgid "Subject"
+msgstr "سه‌ردێڕ"
+
+#: wp-easy-smtp.php:343
+msgid "Enter a subject for your message"
+msgstr "سه‌ردێڕێك بۆ په‌یامه‌كه‌ت ده‌ستنیشان كه"
+
+#: wp-easy-smtp.php:343 wp-easy-smtp.php:350
+msgid "Variable values are:"
+msgstr "ڕێژه‌ بگۆڕه‌كان بریتین له‌:"
+
+#: wp-easy-smtp.php:347
+msgid "Message"
+msgstr "په‌یام"
+
+#: wp-easy-smtp.php:350
+msgid "Write your email message"
+msgstr "ئاده‌ره‌سی ئیمه‌له‌كه‌ت بنووسه‌"
+
+#: wp-easy-smtp.php:355
+msgid "Send Test Email"
+msgstr "ناردی ئیمێلی تاقی كردنه‌وه‌"
+
+#: wp-easy-smtp.php:388
+#, php-format
+msgid ""
+"Please configure your SMTP credentials in the <a href=\"%s\">settings menu</a> in "
+"order to send email using WP Easy SMTP plugin."
+msgstr ""
+"تكایه‌ پێداویستیه‌كانی SMTP ڕك بخه له‌ به‌شی  <a href=\"%s\">مێنۆی ڕێكخستنه‌كان</a> بۆ "
+"به‌كارهێنانی بێ كێشه‌ی پێوه‌كراوی  WP Easy SMTP."
+
+#: wp-easy-smtp.php:540
+msgid "You are not allowed to change SMTP configuration settings."
+msgstr "ڕێت پێ نه‌دراوه‌ ڕێكخستنه‌كانی  SMTP ده‌ستكاری بكه‌ی ."
+
+#: wp-easy-smtp.php:555 wp-easy-smtp.php:565
+#, php-format
+msgid "Please enter a valid email address in the '%s' field."
+msgstr "Please enter a valid email address in the '%s' field."
+
+#: wp-easy-smtp.php:577
+msgid "Please enter a valid host in the 'SMTP Host' field."
+msgstr "تكایه‌ هۆستێكی دروست له‌ به‌شی  'SMTP Host'  ده‌ستنیشان بكه ."
+
+#: wp-easy-smtp.php:588
+msgid "Please enter a valid username in the 'Username' field."
+msgstr "تكایه‌ ناوی به‌كارهێنه‌ری درووست به‌كار بهێنه ."
+
+#: wp-easy-smtp.php:590
+msgid "Please enter a valid password in the 'Password' field."
+msgstr "تێپه‌ڕه‌ وشه‌یه‌كی دروست به‌كار بهێنه"
+
+#: wp-easy-smtp.php:602
+msgid "Please enter a valid port in the 'SMTP Port' field."
+msgstr "پۆرتێكی دروست له‌ بۆشایی 'SMTP Port'  به‌كار بهێنه ."
+
+#: wp-easy-smtp.php:611
+msgid "Settings saved."
+msgstr "ڕێكخستنه‌كان پاشه‌كه‌وت كران"
+
+#: wp-easy-smtp.php:613
+msgid "Settings are not saved."
+msgstr "ڕێكخستنه‌كان پاشه‌كه‌وت نه‌كرا"
+
+#: wp-easy-smtp.php:640
+msgid "Please enter a valid email address in the recipient email field."
+msgstr "تكایه‌ ئادره‌سی ئیمێلێكی دروست له‌ به‌شی ‪‘ئیمێلی وه‌رگر’‬ به‌ كار بهێنه"
+
+#: wp-easy-smtp.php:668
+msgid "Test mail was sent"
+msgstr "ئیمێله‌ تاقیكاری نێردرا."
+
+#: wp-easy-smtp.php:675
+msgid "Test mail was not sent"
+msgstr "ئیمێلی تاقیكاری نه‌نێردرا"
+
+#. Plugin Name of the plugin/theme
+msgid "WordPress Easy SMTP"
+msgstr "WordPress Easy SMTP"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://iprodev.com/wordpress-easy-smtp-send-emails-from-your-wordpress-site-using-a-"
+"smtp-server"
+msgstr ""
+"https://iprodev.com/wordpress-easy-smtp-send-emails-from-your-wordpress-site-using-a-"
+"smtp-server"
+
+#. Description of the plugin/theme
+msgid ""
+"Reconfigures the wp_mail() function to use SMTP instead of mail() and creates an "
+"options page to manage the settings."
+msgstr ""
+"Reconfigures the wp_mail() function to use SMTP instead of mail() and creates an "
+"options page to manage the settings."
+
+#. Author of the plugin/theme
+msgid "iProDev"
+msgstr "iProDev"
+
+#. Author URI of the plugin/theme
+msgid "https://iprodev.com/"
+msgstr "https://iprodev.com/"
+
+#~ msgid "Please enter a valid email address in the 'From Email' field."
+#~ msgstr "تكایه‌ ئیمێل ئادره‌سێكی درووست له‌ به‌شی ئیمه‌لی بنێر ده‌ستنیشان كه . "
